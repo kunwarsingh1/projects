@@ -1,0 +1,170 @@
+*{
+    color: white;
+    text-align: center;
+}
+.header{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)), url('./images/feature-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 8px;
+    margin: 0;
+    flex-wrap: nowrap;
+}
+
+.logo{
+    width: 55%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 45%;
+    cursor: pointer;
+    background-color: transparent;
+}
+.lang{
+    width: auto;
+    height: 3%;
+    margin-top: 26px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.but{
+    margin-left: 60%;
+}
+
+#language{
+    background-color: transparent;
+}
+
+.header-content{
+    color: white;
+    margin-top: -35%;
+    font-size: xx-large;
+    text-align: center;
+    background-color: transparent;
+}
+.para{
+    font-size: medium;
+    margin-top: -30px;
+    text-align: center;  
+    align-content: flex-start;
+    background-color: transparent;
+}
+
+.h3tag{
+    background-color: transparent;
+}
+
+#language-button{
+    border: none;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.sub{
+    background-color: red;
+    color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.email-input{
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#language-button:hover{
+    background-color: rgb(231, 9, 9);
+}
+
+.page1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    flex-direction: row;
+}
+.page2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+.page3{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+.faq{
+    text-align: center;
+    margin-top: 15%;
+    font-size: xx-large;
+}
+
+
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+ 
+
+.main-body{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9%;
+}
+.page1-text1{
+    font-size: 250%;
+}
+.page1-text2{
+    font-size: 140%;
+    margin-top: -5px;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.page2-text2{
+    font-size: 140%;
+    margin-top: -5px;
+}
+.page1-text1{
+    font-size: 250%;
+}
+
+
+.text3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.page3-text2{
+    font-size: 140%;
+    margin-top: -5px;
+}
+.page3-tex12{
+    font-size: 250%;
+}
+
+.body-footer{
+    background-color: black;
+}
